@@ -1,0 +1,13 @@
+In [6]: def reverse(str):
+   ...:     if len(str) == 0:
+   ...:         return str
+   ...:     else:
+   ...:         return reverse(str[1:]) + str[0]
+   ...:     
+
+
+In [8]: a = str(input("Enter the string to be reversed: "))
+Enter the string to be reversed: 'helloworld'
+
+In [9]: print reverse(a)
+dlrowolleh
