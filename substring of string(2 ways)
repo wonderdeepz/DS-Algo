@@ -1,0 +1,22 @@
+////Using In for checking substring:
+
+In [34]: def contains(text,pattern):
+    ...:         if pattern in text:
+    ...:             return "Hello"
+    ...:     
+    ...:             
+    ...:             
+    ...:         
+
+In [35]: contains("geeksfor","for")
+Out[35]: 'Hello'
+
+/// Using find function of string
+
+In [44]: str = "geeksforgeeks"
+
+In [45]: str.find("for")
+Out[45]: 5
+
+In [46]: str.find("hello")
+Out[46]: -1
